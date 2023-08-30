@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+ 
+  
+</head>
+<body class=" flex justify-center dark:dark:bg-bodyback dark:text-white">
+
+  <div class=" w-5/6 my-8 sm:mr-5">
+      <div class="grid  grid-cols-1 mt-6 sm:grid-cols-4"> 
+          <div class=" pb-5 border-b-2 sm:border-b-0 sm:col-start-1 col-span-2 mb-6">
+              <h1 class="text-2xl font-bold ">Social Media Dashboard</h1> 
+              <h6 class="text-xs font-bold text-gray-500 ">  Total Followers: 23,004</h6>
+          </div> 
+
+          <div class="sm:flex justify-end sm:col-start-4  min-w-fit mb-5">
+            <h1 class="min-w-fit sm:flex justify-end ">Dark Mode <label  class="switch sm:ml-2 ml-40">
+              <input type="checkbox">
+              <span class="slider" id="toggle"></span>
+          </label></h1>
+            
+          </div>
+      </div>
+      <!-- social media dashboard -->
+      <div class="grid gap-7 grid-cols-1 mt-6 sm:grid-cols-4">
+        <!--  container 1 -->
+
+        <div class=" bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack  h-60 rounded-md border-t-4 border-t-sky-600 sm:h-80 sm:w-4/4 sm:mb-7">
+          <div class="m-10">
+            <img class="inline mr-2" src="./images/icon-facebook.svg" alt="">
+            <h6 class="inline text-gray-400 text-sm">@nathanf</h6>
+          </div>
+          <h1 class="text-5xl font-bold">1987</h1>
+          <h3 class="m-2 text-xs text-gray-500 tracking-4 ">FOLLOWERS</h3>
+          <h5 class="m-10 text-xs text-green-700"><img class="inline mr-1"src="./images/icon-up.svg">12 Today</h5>
+        </div>
+        <!--  container 2 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack  h-60 rounded-md border-t-4 border-t-sky-600 sm:h-80 sm:w-4/4 sm:mb-7">
+          <div class="m-10">
+              <img class="inline mr-2" src="./images/icon-twitter.svg" alt="">
+              <h6 class="inline text-gray-400 text-sm">@nathanf</h6>        
+          </div>
+
+          <h1 class="text-5xl font-bold">1044</h1>
+          <h3 class="m-2 text-xs text-gray-500 tracking-4 " >FOLLOWERS</h3>
+          <h5 class="m-10 text-xs text-green-700"><img class="inline mr-1"src="./images/icon-up.svg">99 Today</h5>
+
+        </div>
+        <!--  container 3 -->
+        <div class="bg-gradient-to-r from-yellow-500 to-pink-500 h-60 pt-1 rounded-md">
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack h-60 sm:h-80 sm:w-4/4 sm:mb-7">
+          <div class="m-10">
+            <img class="inline mr-2" src="./images/icon-instagram.svg" alt="">
+            <h6 class="inline text-gray-400 text-sm">@realnathanf</h6>            
+          </div>
+          <h1 class="text-5xl font-bold"> 11k</h1>
+          <h3 class="m-2 text-xs text-gray-500 tracking-4 ">FOLLOWERS</h3>
+          <h5 class="m-10 text-xs text-green-700"><img class="inline mr-1"src="./images/icon-up.svg">1099 Today</h5>
+        </div>
+        </div>
+
+        <!--  container 4 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack h-60 rounded-md border-t-4 border-t-red-700 sm:h-80 sm:w-4/4 sm:mb-7">
+          <div class="m-10">
+            <img class="inline m-2" src="./images/icon-youtube.svg" alt="">
+            <h6 class="inline text-gray-400 text-sm">Nathan F.</h6>
+          </div>
+          <h1 class="text-5xl font-bold">8239</h1>
+          <h3 class="m-2 text-xs text-gray-500 tracking-4 ">SUBSCRIBERS</h3>
+          <h5 class="m-10 text-xs text-red-700"><img class="inline mr-1"src="./images/icon-down.svg">144 Today</h5>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-2xl font-bold m-">Overview - Today</h1>
+      </div>
+      <!-- today's overviews -->
+      <div class="grid gap-7 grid-cols-1 mt-6 sm:grid-cols-4">
+        <!-- overview 1 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 " >
+            <h3 class=" text-gray-400 text-sm font-bold">Page Views</h3>
+            <img src="./images/icon-facebook.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">87</h1>
+            <h5 class=" text-xs text-green-700"><img class="inline mr-1" src="./images/icon-up.svg" alt="">3%</h5>
+          </div>
+        </div>
+        <!-- overview 2 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h3 class=" text-gray-400 text-sm font-bold">Likes</h3>
+            <img src="./images/icon-facebook.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">52</h1>
+            <h5 class=" text-xs text-red-700"><img class="inline mr-1"src="./images/icon-down.svg">2%</h5>
+          </div>
+        </div>  
+        <!-- overview 3 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+             <h3 class=" text-gray-400 text-sm font-bold">Likes</h3>
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">5462</h1>
+            <h5 class=" text-xs text-green-700"><img class="inline mr-1" src="./images/icon-up.svg" alt="">2257%</h5>
+          </div>
+        </div>  
+        <!-- overview 4 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h3 class=" text-gray-400 text-sm font-bold" >Profile Views</h3>
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">52k</h1>
+            <h5 class=" text-xs text-green-700"><img class="inline mr-1" src="./images/icon-up.svg" alt="">1275%</h5>
+          </div>
+        </div>  
+        <!-- overview 5 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+             <h3 class=" text-gray-400 text-sm font-bold">Retweets</h3>
+            <img src="./images/icon-twitter.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">117</h1>
+            <h5 class=" text-xs text-green-700"><img class="inline mr-1" src="./images/icon-up.svg" alt="">303%</h5>
+          </div>
+        </div>  
+        <!-- overview 6 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+             <h3 class=" text-gray-400 text-sm font-bold">Likes</h3>
+            <img src="./images/icon-twitter.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">507</h1>
+            <h5 class=" text-xs text-green-700"><img class="inline mr-1" src="./images/icon-up.svg" alt="">553%</h5>
+          </div>
+        </div>     
+        <!-- overview 7 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4 h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+             <h3 class=" text-gray-400 text-sm font-bold">Likes</h3>
+            <img src="./images/icon-youtube.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">107</h1>
+            <h5 class=" text-xs text-red-700"><img class="inline mr-1" src="./images/icon-down.svg" alt="">19%</h5>
+          </div>
+        </div>
+        <!-- overview 8 -->
+
+        <div class="bg-gray-200 flex flex-col items-center justify-center dark:bg-divBack w-4/4  h-40 rounded-md">
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h3 class=" text-gray-400 text-sm font-bold">Total  Views</h3>
+            <img src="./images/icon-youtube.svg" alt="">
+          </div>
+          <div class="flex  items-center justify-between w-5/6 my-6 ">
+            <h1 class="text-3xl font-bold">1407</h1>
+            <h5 class=" text-xs text-red-700"><img class="inline mr-1" src="./images/icon-down.svg" alt="">12%</h5>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script>
+      const toggleSwitch = document.getElementById('toggle');
+      
+
+      toggleSwitch.addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark')
+      });
+  </script>
+</body>
+</html>
